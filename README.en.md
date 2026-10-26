@@ -26,6 +26,8 @@ The application UI currently uses Simplified Chinese. Documentation is available
 - A USB data cable and a device with **File transfer / MTP** enabled.
 
 ```bash
+git clone https://github.com/macjohson/MTP-Explorer.git
+cd MTP-Explorer
 open MTPExplorer.xcodeproj
 ```
 

@@ -26,6 +26,8 @@
 - 支持数据传输的 USB 线，以及启用“文件传输 / MTP”的设备。
 
 ```bash
+git clone https://github.com/macjohson/MTP-Explorer.git
+cd MTP-Explorer
 open MTPExplorer.xcodeproj
 ```
 
