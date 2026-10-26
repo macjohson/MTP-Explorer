@@ -6,6 +6,17 @@
 
 > 当前版本：1.0.1。项目仍处于早期阶段。已在联想拯救者平板 Y700 上验证连接、目录读取和存储容量显示；上传、下载、删除及异常断连尚未完成实机验证。
 
+## 下载
+
+在 [GitHub Releases](https://github.com/macjohson/MTP-Explorer/releases/latest) 中按芯片选择：
+
+| Mac 芯片 | 应用安装包 |
+| --- | --- |
+| Apple Silicon（M 系列，arm64） | [MTPExplorer-AppleSilicon.zip](https://github.com/macjohson/MTP-Explorer/releases/latest/download/MTPExplorer-AppleSilicon.zip) |
+| Intel（x86_64） | [MTPExplorer-Intel.zip](https://github.com/macjohson/MTP-Explorer/releases/latest/download/MTPExplorer-Intel.zip) |
+
+解压后将 `MTPExplorer.app` 移入“应用程序”。两个安装包均为单架构，应用及内部动态库与标注的芯片一致。Release 另附完整 Xcode 工程包与 `SHA256SUMS.txt`。当前安装包使用本地签名，尚未完成 Developer ID 签名或公证。
+
 ## 功能
 
 - 自动发现设备、真实设备名、连接 / 断开、多存储卷及容量显示。
@@ -47,7 +58,7 @@ xcodebuild -project MTPExplorer.xcodeproj -scheme MTPExplorer \
   -configuration Debug -destination 'platform=macOS' \
   -derivedDataPath build-tests test
 
-# Universal Release 构建及源码 / 应用压缩包
+# 构建 Release，并分别生成 Apple Silicon / Intel 安装包及源码包
 ./Scripts/package.sh
 ```
 

@@ -6,6 +6,17 @@ A native macOS MTP file manager built with SwiftUI, AppKit, libmtp and libusb. B
 
 > Current version: 1.0.1. This is an early-stage project. Connection, directory listing and storage capacity display have been tested on a Lenovo Legion Y700. Upload, download, deletion and unexpected disconnection have not yet been validated on hardware.
 
+## Downloads
+
+Choose your Mac architecture on [GitHub Releases](https://github.com/macjohson/MTP-Explorer/releases/latest):
+
+| Mac processor | App package |
+| --- | --- |
+| Apple Silicon (M series, arm64) | [MTPExplorer-AppleSilicon.zip](https://github.com/macjohson/MTP-Explorer/releases/latest/download/MTPExplorer-AppleSilicon.zip) |
+| Intel (x86_64) | [MTPExplorer-Intel.zip](https://github.com/macjohson/MTP-Explorer/releases/latest/download/MTPExplorer-Intel.zip) |
+
+Unzip and move `MTPExplorer.app` into Applications. Each package contains a single architecture, including its embedded libraries. Releases also include the complete Xcode project and `SHA256SUMS.txt`. Current app packages are ad-hoc signed, without Developer ID signing or notarization.
+
 ## Features
 
 - Automatic device discovery, real device names, connect / disconnect, multiple storage volumes and capacity information.
@@ -47,7 +58,7 @@ xcodebuild -project MTPExplorer.xcodeproj -scheme MTPExplorer \
   -configuration Debug -destination 'platform=macOS' \
   -derivedDataPath build-tests test
 
-# Universal Release build and app / source archives
+# Release build, separate Apple Silicon / Intel packages, and source archive
 ./Scripts/package.sh
 ```
 
