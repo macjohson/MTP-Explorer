@@ -1,0 +1,19 @@
+* text=auto
+*.swift text eol=lf
+*.m text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.pbxproj text eol=lf
+*.plist text eol=lf
+*.xcscheme text eol=lf
+*.png binary
+*.dylib binary
+*.tar.gz binary
+*.tar.bz2 binary
+# Preserve upstream formatting in the unmodified third-party header and licenses.
+Vendor/include/libmtp.h -whitespace
+Vendor/licenses/* -whitespace

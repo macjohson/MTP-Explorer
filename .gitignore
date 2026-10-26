@@ -1,0 +1,70 @@
+# macOS and editor metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Xcode: generated state, not shared project settings
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcresult/
+*.xcactivitylog
+
+# Build products, local dependency builds, packages and diagnostics
+.build-deps/
+.build/
+build/
+build-*/
+dist/
+coverage/
+*.log
+*.app/
+*.dSYM/
+*.xcarchive/
+*.ipa
+*.dmg
+*.zip
+*.partial
+*.ips
+*.crash
+
+# Personal configuration, credentials and signing material
+.env
+.env.*
+!.env.example
+.local/
+*.local
+*.local.*
+*.xcconfig.local
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+.netrc
+.npmrc
+.pypirc
+id_rsa*
+id_ed25519*
+
+# Ordinary compiled libraries are excluded. These two reviewed runtime
+# dependencies are intentionally versioned with licenses and matching sources.
+*.o
+*.a
+*.so
+*.dylib
+!Vendor/lib/libmtp.9.dylib
+!Vendor/lib/libusb-1.0.0.dylib

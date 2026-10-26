@@ -1,0 +1,5 @@
+32560079cb2a714ddd34f270e6fc26fce2c1e52a8021d5cd19ac9b8d7364f5b0  Vendor/include/libmtp.h
+64f4a12bc0a3cf6342ed9b41ba74845691c4cf4647ea389440c2dd3ed48f1dbe  Vendor/lib/libmtp.9.dylib
+f6ae00cdf1d87671b13a7ee6cb2e2ad9f8011358a1c80b0fc25d3533d26b164a  Vendor/lib/libusb-1.0.0.dylib
+74a2b6e8cb4a0304e95b995496ea3ac644c29371649b892b856e22f12a0bdeed  Vendor/sources/libmtp-1.1.23.tar.gz
+fea36f34f9156400209595e300840767ab1a385ede1dc7ee893015aea9c6dbaf  Vendor/sources/libusb-1.0.30.tar.bz2
