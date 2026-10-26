@@ -17,7 +17,7 @@ import subprocess
 import zipfile
 root = Path(sys.argv[1])
 paths = ['MTPExplorer', 'MTPExplorer.xcodeproj', 'Scripts', 'Tests', 'Vendor', 'docs', '.github',
-         'README.md', 'README.en.md', 'CONTRIBUTING.md', 'SECURITY.md', 'LICENSE', '.gitignore', '.gitattributes']
+         'README.md', 'README.en.md', 'CONTRIBUTING.md', 'SECURITY.md', 'LICENSE', 'NOTICE', '.gitignore', '.gitattributes']
 # Use the same Git candidates as the audit so ignored local material cannot enter
 # source archives through a recursive directory traversal.
 output = subprocess.check_output(['git', '-C', str(root), 'ls-files', '--cached', '--others',

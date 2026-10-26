@@ -1,0 +1,17 @@
+MTP Explorer
+
+Original project code is licensed under the MIT License in LICENSE.
+
+The following dynamically linked third-party components retain their own
+LGPL-2.1-or-later licenses and are not relicensed as MIT:
+
+- libmtp 1.1.23: Vendor/licenses/libmtp-COPYING.txt
+- libusb 1.0.30: Vendor/licenses/libusb-COPYING.txt
+
+Matching source archives are in Vendor/sources/. Versions, source locations,
+checksums and rebuild / replacement instructions are documented in
+Vendor/SOURCES.md and Scripts/build-dependencies.sh.
+
+本项目原创代码采用 LICENSE 中的 MIT 许可。libmtp 与 libusb 保留各自的
+LGPL-2.1-or-later 许可，不改为 MIT。完整许可证、对应源码和重建说明保留在
+Vendor/ 目录中。
